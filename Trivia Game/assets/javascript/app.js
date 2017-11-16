@@ -172,7 +172,7 @@ var game = {
 	clock: function() {
 		// decrement counter
 		counter--;
-		$('.countdown').text(counter);
+		$('.countdown').text('Timer: ' + counter);
 		if (counter === 0) {
 			game.timerOff();
 			timer = false;

@@ -4,21 +4,14 @@
 	background-color: #eee;
 }
 
-.gamecontainer {
-	position: relative;
-	background-color: #fff;
-	width: 900px;
-	margin-left: 250px;
-
-}
-
 .title {
 	position: relative;
 	background-color: #6C809A;
 	text-align: center;
 	font-size: 75px;
-	width: 900px;
+	width: auto;
 	height: 100px;
+	margin: 0px 257px 0px 250px;
 }
 
 .countdown {
@@ -28,6 +21,32 @@
 	height: 50px;
 	text-align: center;
 	font-size: 30px;
+	margin: 0px 257px 0px 250px;
+}
+
+#start {
+	position: relative;
+	background-color: #fff;
+	width: 900px;
+	margin-left: 250px;
+	text-align: center;
+}
+
+#end {
+	position: relative;
+	background-color: #fff;
+	width: 900px;
+	margin-left: 250px;
+	text-align: center;
+
+}
+
+#gamecontainer {
+	position: relative;
+	background-color: #fff;
+	width: 900px;
+	margin-left: 250px;
+
 }
 
 .game {
@@ -37,80 +56,33 @@
 .question {
 	background-color: #6C809A;
 	width: auto;
-	height: 150px;
+	height: 70px;
 	text-align: center;
+	font-size: 20px;
+	padding-top: 30px;
+	margin-top: 10px;
+}
+
+.answerscontainer {
+	background-color: #6C809A;
+	width: auto;
+	height: 350px;
+	text-align: center;
+	border: 2px solid black;
+}
+
+.answerbuttons {
+
+}
+
+.buttons {
+
 }
 
 .answers {
-	background-color: #6C809A;
-	width: auto;
-	height: 300px;
+	width: 250px;
+	height: 30px;
 	text-align: center;
+	margin: 40px 0px 40px 320px;
 	border: 2px solid black;
-}
-
-.button0 {
-	background-color: #6C809A;
-	margin-right: 400px;
-	border: 2px solid black;
-	width: 300px;
-	height: 50px;
-	text-align: center;
-	margin: 5px 5px 5px 300px;
-}
-
-.button1 {
-	background-color: #6C809A;
-	border: 2px solid black;
-	width: 300px;
-	height: 50px;
-	text-align: center;
-	margin: 5px 5px 5px 300px;
-}
-
-.button2 {
-	background-color: #6C809A;
-	border: 2px solid black;
-	width: 300px;
-	height: 50px;
-	text-align: center;
-	margin: 5px 5px 5px 300px;
-}
-
-.button3 {
-	background-color: #6C809A;
-	border: 2px solid black;
-	width: 300px;
-	height: 50px;
-	text-align: center;
-	margin: 5px 5px 5px 300px;
-}
-
-.button5 {
-	background-color: #6C809A;
-	border: 2px solid black;
-	width: 300px;
-	height: 50px;
-	text-align: center;
-	margin: 5px 5px 5px 300px;
-}
-
-.button1 p {
-	margin-top: 15px;
-}
-
-.button2 p {
-	margin-top: 15px;
-}
-
-.button3 p {
-	margin-top: 15px;
-}
-
-.button4 p {
-	margin-top: 15px;
-}
-
-.button5 p {
-	margin-top: 15px;
 }
